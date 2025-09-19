@@ -95,7 +95,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  De navigatie bar bovenin mijn pagina lukt nog niet helemaal, vooral het hamburger menu. Ook heb ik moeite met de eerste section in mijn pagina, hier moet ik buttons over een video plaatsen.
+  <img src="/readme-images/screenshot_first_section.png" width="375px" alt="breakdown van de hele pagina">
 
 
   ### Agenda voor meeting
@@ -113,10 +114,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - punt 1: Wanneer je wilt aangeven dat een deel in je tekst Engels is kan je gebruik maken van de tag lang="en" op het stukje Engelse tekst.
+  - punt 2: Wij moeten uiteindelijk 3 style sheets opleveren. Eentje voor de algemene stijling, en de andere 2 voor de pagina's
+  - Punt 3: Door de tag aria-hidden te gebruiken zorg je ervoor dat de screenreader dat stukje tekst niet voorleest, dit kan handig zijn voor
+  bijvoorbeeld buttons die een slechtziende niet hoeft te gebruiken. Deze wordt dan niet voor diegene voorgelezen.
+  - Punt 4: ol is een ordered list, ul is unordered list.
+  - Punt 5: Goed op de privacy letten. Google bijvoorbeeld slaat informatie op van de gebruikers, hier mogen wij wettelijk dus geen gebruik van
+  maken. Daarom is het ook belangrijk om fonts te downloaden en deze niet van google over te nemen.
+  - Punt 6: Via een SVG kan je een vector plaatje in je website gebruiken. Deze zijn handig omdat je de volle vrijheid hebt om deze aan te passen.
+  Deze kan je makkelijk van kleur laten veranderen.
+  - Punt 7: Volgends de toegankelijkheids wet moeten video's op websites op pauze gezet kunnen worden. Hier moet rekening mee gehouden worden.
 
 </details>
 
@@ -130,17 +137,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik heb mijn tweede section gemaakt en ook responsive gemaakt, het koste wat tijd maar het lukte me wel uiteindelijk. Langzaam ben ik verder aan het bouwen aan de volgende sections. De eerste section waar ik de buttons over de vidoe moet plaatsen heb ik voor nu nog even gelaten en wil ik later hulp voor vragen wanneer ik er echt niet uit kom.
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | student 1 Eva  | student 2 Demi     | student 3Mick| student 4 Melih  | Student 5 Bo
+  | Hoe ik mijn     Demi wilt weten     |              | Melih geen vraag |Bo wilt weten
+   eerste section   of haar HTML klopt  |              | deze week.       |of haar HTML
+   het beste kan                                                          |in orde is.     
+   uitwerken.      |                                           
+  |Of mijn HTML er |                                    
+  | goed uitzieten.|                                   
+  | ...            | ...                                 
 
 
   ### Verslag van meeting

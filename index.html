@@ -9,6 +9,7 @@
 	<title>Star Stable</title>
 	
 	<link href="styles/style.css" rel="stylesheet">
+	<link href="styles/styles.font.css" rel="stylesheet">
 	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">	
 </head>
 
@@ -18,8 +19,14 @@
 			<ul>
 				<li>
 					<a href="#">Cadeaubonnen</a>
+				</li>
+				<li>
 					<a href="#">Help</a>
+				</li>
+				<li>
 					<a href="#">Ouders</a>
+				</li>
+				<li>
 					<a href="#">Taal</a>
 				</li>
 			</ul>
@@ -32,14 +39,33 @@
 				<img src="images/burger_menu.png" alt="Burger menu icoon">
 			</button>
 		</nav>
+		<nav>
+    <!-- de sluit button -->
+    <!-- de button is ook niet relevant voor screenreaders -->
+    		<button aria-hidden="true">Sluit</button>
+    
+    	<ul>
+			<li><a href="#">Het spel</a></li>
+			<li><a href="#">Paarden</a></li>
+			<li><a href="#">Nieuws</a></li>
+			<li><a href="#">Shop</a></li>
+			<li><a href="#">Community</a></li>
+			<li><a href="#">Cadeaubonnen</a></li>
+			<li><a href="#">Help</a></li>
+    	</ul>
+  </nav>
 	</header>
 	<main>
 		<section>
-			<h1>Een paardenspel vol avonturen!</h1>
-			<img src="images/place_holder_video.jpg" alt="Star stable character with horse">
 			<ul>
 				<li>
-					<a href="#">Play</a>
+					<h1>Een paardenspel vol avonturen!</h1>
+					<img src="images/sso_intro_video.png" alt="Star stable character with horse">
+				</li>
+			</ul>
+			<ul>
+				<li>
+					<a href="#">Spelen</a>
 				</li>
 				<li>
 					<a href="#"><img src="images/app_store.png" alt=""></a>
@@ -57,40 +83,20 @@
 			<ul>
 				<li>
 					<h3>De nieuwe Andalusiër!</h3>
-				</li>
-				<li>
-					<p>3 september 2025</p>
-				</li>
-				<li>
 					<p>Spelupdate</p>
-				</li>
-				<li>
+					<p><time datetime="2025-09-03">3 september 2025</time></p> 
+					<p>Een favoriet uit het verleden krijgt een flinke opknapbeurt!</p>
 					<img src="images/andalusier_news.jpeg" alt="De nieuwe andalusier in de kleur zwart en wit">
 				</li>
 				<li>
-					<p>Een favoriet uit het verleden krijgt een flinke opknapbeurt!</p>
-				</li>
-			</ul>
-		</section>
-		<section>
-			<h2>Nieuws</h2>
-			<ul>
-				<li>
 					<h3>Een rijke oogst!</h3>
-				</li>
-				<li>
-					<p>10 september 2025</p>
-				</li>
-				<li>
 					<p>Spelupdate</p>
-				</li>
-				<li>
+					<p><time datetime="2025-09-10">10 september 2025</time></p>
+					<p>De herfst is in aantocht. Tijd voor warme drankjes en zachte kleren!</p>
 					<img src="images/rijke_oogst.jpeg" alt="">
 				</li>
-				<li>
-					<p>De herfst is in aantocht. Tijd voor warme drankjes en zachte kleren!</p>
-				</li>
 			</ul>
+			<button>Zie al het nieuws</button>
 		</section>
 		<section>
 			<h2>Star Rider</h2>
@@ -116,11 +122,11 @@
 					<p>Sluit je aan bij de community en klets met oude en nieuwe vrienden.</p>
 				</li>
 				<li>
-					<a href="#">
 					<img src="images/starrider.png" alt="Illustratie van het Star Rider icoon. Paarden illustratie met starcoins">
 					<h4>STAR RIDER-LIDMAATSCHAP</h4>
+				</li>
+				<li>
 					<p>Lees alles over Star Rider 🐴✨</p>
-					</a>
 				</li>
 			</ul>
 		</section>
@@ -158,14 +164,26 @@
 		<ul>
 			<li>
 				<a href="#">Help</a>
-				<a href="#">Serverstatus</a>
-				<a href="#">Ouders</a>
 			</li>
 			<li>
+				<a href="#">Serverstatus</a>
+			</li>
+			<li>
+				<a href="#">Ouders</a>
+			</li>
+		</ul>
+		<ul>
+			<li>
 				<a href="#">Voorwaarden</a>
+			</li>
+			<li>
 				<a href="#"><strong>Privacy</strong></a>
+			</li>
+			<li>
 				<a href="#">Cookie beleid</a>
 			</li>
+		</ul>
+		<ul>
 			<li>
 				<a href="#">Beveiliging en online veiligheid</a>
 			</li>
@@ -180,10 +198,8 @@
 			<li>
 				<a href="#"><img src="images/coppa_safety.png" alt="Logo van GDPR dat aangeeft dat de veiligheid van kinderen getest is en goedgekeurd is"></a>
 			</li>
-			<li>
-				<p>2005-2025 Star Stable Entertainment AB</p>
-			</li>
 		</ul>
+		<p>2005-2025 Star Stable Entertainment AB</p>
 	</footer>
 	<script defer src="scripts/script.js"></script>
 </body>
