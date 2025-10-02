@@ -49,21 +49,21 @@ section:nth-of-type(2) li a {
 }
 
 h3 {
-  font-family: 'noto_sans_bold', sans-serif;
-  font-size: 1.5em;
-  font-style: italic;
-  font-weight: 900;
-  text-align: left;
-  margin: 0.5em;
+	font-family: 'noto_sans_bold', sans-serif;
+	font-size: 1.5em;
+	font-style: italic;
+	font-weight: 900;
+	text-align: left;
+	margin: 0.5em;
 }
 
 section:nth-of-type(2) li img {
-  order: 1; /* bovenaan */
-  max-width: 100%;
+	order: 1;
+	max-width: 100%;
 }
 
 section:nth-of-type(2) li p:first-of-type {
-  order: 2; /* spelupdate */
+  	order: 2;
   	background-color:var(--color-update);
 	color:var(--color-text-dark-bg);
 	justify-self:center;
@@ -73,7 +73,7 @@ section:nth-of-type(2) li p:first-of-type {
 }
 
 section:nth-of-type(2) li p:nth-of-type(2) {
-  order: 3; /* tijd */
+ 	order: 3; /* tijd */
 	margin-left: 2em;
 }
 
@@ -83,9 +83,9 @@ section:nth-of-type(2) li h3 {
 }
 
 section:nth-of-type(2) li p:last-of-type {
-  order: 5; /* laatste p tekst */
-  margin-left: 2em;
-  margin-bottom: 3em;
+	order: 5; /* laatste p tekst */
+	margin-left: 2em;
+	margin-bottom: 3em;
 }
 
 /*Tweede ul */
@@ -101,17 +101,17 @@ section:nth-of-type(2) li:nth-of-type(2) {
 }
 
 h3 {
-  font-family: 'noto_sans_bold', sans-serif;
-  font-size: 1.5em;
-  font-style: italic;
-  font-weight: 900;
-  text-align: left;
-  margin: 0.5em;
+	font-family: 'noto_sans_bold', sans-serif;
+	font-size: 1.5em;
+	font-style: italic;
+	font-weight: 900;
+	text-align: left;
+	margin: 0.5em;
 }
 
 section:nth-of-type(2) li:nth-of-type(2) img {
-  order: 1; /* bovenaan */
-  max-width: 100%;
+	order: 1; /* bovenaan */
+	max-width: 100%;
 }
 
 section:nth-of-type(2) li:nth-of-type(2) p:first-of-type {
